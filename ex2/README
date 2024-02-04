@@ -1,0 +1,11 @@
+
+---------------------------------------------Explanation---------------------------------------------
+
+
+This code is an implementation of a payment system that operates on a blockchain using the longest-chain protocol.
+It replaces the need for a trusted intermediary, such as a bank, and allows each node to maintain its own copy of
+the blockchain and unspent transaction output (UTxO) set.
+ The system allows nodes to mine new blocks and send/receive funds securely.
+
+The nodes communicate with each other to notify about new blocks and transactions.
+The system includes block validation and chain reorganization features to ensure data integrity.

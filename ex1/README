@@ -1,0 +1,11 @@
+Michael Wolhandler, 342768587, micwo99
+
+
+------------- Implementation of severals class --------------
+
+block.py: a class that represents a block in the blockchain with a list of transaction and a hash to the previous block
+transaction.py: a class that represents a transaction between two persons (wallet), with a public and private key and also
+             a signature
+bank.py: a bank that include the blockchain that contains block with all the transactions, and that contains the unspent
+         transactions output
+wallet.py: a class that reprensent a wallet with a private and public keys and  the unspent transactions output
